@@ -1,6 +1,6 @@
 import read_file as rf
 
-file_path = "exemplo.txt"
+file_path = "alwabp/1_hes"
 num_tasks, num_workers, times, precedences = rf.read_file(file_path)
 
 print(f"Número de tarefas: {num_tasks}")
